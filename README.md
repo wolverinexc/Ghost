@@ -1,7 +1,7 @@
 Ghost 
 ======================
 
-A bot for plug.dj that is based on basicBot created by [Yemasthui](https://github.com/Yemasthui) but now maintained by [Benzi](https://github.com/Benzi)
+A bot for plug.dj that is based on basicBot which was created by [Yemasthui](https://github.com/Yemasthui) but now maintained by [Benzi](https://github.com/Benzi)
 
 ---
 
