@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "wolverinexc";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -55,13 +55,13 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Ghost",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/wolverinexc/Ghost/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -81,13 +81,13 @@
         usercommandsEnabled: true,
         lockskipPosition: 3,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
+            ["theme", "C'mon mate - This song does not fit the room theme. What is the room theme though..."],
             ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["history", "Now this is a song I haven't heard in a long time.  Just kidding, this song is in the history. "],
+            ["mix", "You played a mix, which is against the rules or some stupid crap like that. "],
+            ["sound", "The song you played had bad sound quality or no sound. We're not playing for Helen Keller"],
+            ["nsfw", "The song you contained was NSFW like with dicks or some shit. "],
+            ["unavailable", "WTF man! The song you played was not available for some users. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
@@ -108,8 +108,8 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/wolverinexc/Ghost/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/wolverinexc/Ghost/master/blacklists/ExampleOPlist.json"
         }
     }));
 
